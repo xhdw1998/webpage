@@ -1,0 +1,548 @@
+
+
+*{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+
+}
+a{
+
+	text-decoration:none;
+}
+ul{
+
+	list-style-type:none;
+}
+input{
+	border:none;
+}
+#header{
+	width:100%;
+	height:33px;
+	background:url(../img/he-bg.png) repeat-x;
+}
+#header .center{
+	width:1200px;
+	height:33px;
+	margin:0 auto;
+}
+/*网站顶部左侧样式开始*/
+#header .center .left{
+	float:left;
+	width:600px;
+	color:#808080;
+}
+
+#header .center .left .hello{
+	color:#808080;
+	line-height: 33px;
+}
+#header .center .left a{
+	color:#808080;
+}
+/*网站顶部左侧样式结束*/
+
+/*网站顶部右侧样式开始*/
+#header .center .right{
+	float:left;
+	
+	height:33px;
+	color:#808080;
+	/*background:orange;*/
+
+}
+#header .center .right ul{
+width:560px;
+}
+
+#header .center .right ul li{
+	float:left;
+	line-height:33px;
+	width:75px;
+	background:url(../img/vanclsprite.png) no-repeat 50px 10px;
+	
+
+}
+#header .center .right .moblie{
+	width:80px;
+	display:block;
+	height:33px;
+	float:left;
+	line-height:33px;
+	background:url(../img/vanclsprite.png) no-repeat 53px -19px;
+}
+
+#header .center .right .kefu{
+	display:block;
+	width:80px;
+	height:33px;
+	float:left;
+	line-height:33px;
+	background:url(../img/customer_2.png) no-repeat 53px center;
+
+}
+
+#header .center .right .weixin{
+	width:19px;
+	display:block;
+	float:left;
+	background:url(../img/w1.jpg) no-repeat center center;
+	height:33px;
+}
+
+#header .center .right .weibo{
+	width:18px;
+	display:block;
+	float:left;
+	background:url(../img/w2.jpg) no-repeat center center;
+	height:33px;
+}
+/*网站顶部右侧样式结束*/
+
+/*网站顶部广告样式开始*/
+#guanggao{
+	width:100%;
+	background:#b81b22;
+	height:50px;
+}
+#guanggao a{
+	width:1200px;
+	display:block;
+	margin:0 auto;
+}
+/*网站顶部广告样式结束*/
+
+
+/*搜索区域样式开始*/
+#search{
+	width:1200px;
+	height:92px;
+	margin:0 auto;
+	border-top:none;
+	position:relative;
+
+}
+
+#search .logo{
+	display:block;
+	width:166px;
+	background:url(../img/vanclsprite2.png) no-repeat 0px -59px;
+	height:47px;
+	position:absolute;
+	top:15px;
+	left:31px;
+}
+
+#search .sou{
+
+
+}
+
+#search .sou form{
+		width:438px;
+		height:27px;
+		border:1px solid #C9CACA;
+		position:absolute;
+		top:22px;
+		left:642px;
+
+	
+}
+.text{
+	width:389px;
+	height:27px;
+	float:left;
+	text-indent:8px;
+}
+.btn{
+	width:49px;
+	height:27px;
+	float:left;
+	cursor:pointer;
+	background:url(../img/vanclsprite2.png) no-repeat -99px -1px;
+}
+
+#search p{
+	width:109px;
+	height:29px;
+	position:absolute;
+	top:22px;
+	right:0px;
+	text-align:center;
+	line-height:29px;
+	text-indent:5px;
+	color:white;
+	background:url(../img/vanclsprite2.png) no-repeat -153px 0;
+}
+#search ul{
+ 	position:absolute;
+ 	top:56px;
+ 	right:151px;
+}
+
+#search ul li{
+	color:#808080;
+	margin-left:8px;
+	float:left;
+}
+/*搜索区域样式结束*/
+
+/*凡客导航条样式开始*/
+#center{
+	width:1205px;
+	height:45px;
+	margin:0 auto;
+	/*border:1px solid red;*/
+	background:#EFEFEF;
+}
+/*导航条左侧开始*/
+#center .left{
+	width:260px;
+	height:45px;
+	text-align:center;
+	line-height:45px;
+	float:left;
+}
+#center .left a{
+	width:260px;
+	height:45px;
+	background:#b81b22;
+	color:white;
+	display:block;
+	font-size:16px;
+	font-weight:bold;
+	
+}
+/*导航条左侧结束*/
+
+/*导航条右侧开始*/
+#center .right{
+	height:45px;
+	float:left;
+
+}
+
+#center .right ul li{
+	
+	float:left;
+	
+}
+
+#center .right ul li a{
+	padding:0px 42px;
+	height:45px;
+	background:#EFEFEF;
+	color:#898083;
+	line-height:45px;
+	text-align:center;
+	display:block;
+	font-size:15px;
+	/*font-weight:bold;*/
+
+	
+}
+
+#center .right ul li a:hover{
+	color:#B81C22;
+	background:#E5E6E6;
+}
+/*导航条右侧结束*/
+/*凡客导航条样式结束*/
+
+
+/*中间导航与轮播开始*/
+#cnt{
+	
+	width:1200px;
+	height:475px;
+	margin:17px auto 0px auto;
+
+}
+
+/*左侧导航分类开始*/
+#cnt .left{
+	float:left;
+	width:260px;
+	
+	height:475px;
+
+}
+#cnt .left dl{
+	margin-bottom:17px;
+	border:1px solid #C9CACA;
+	border-bottom:none;
+
+}
+
+#cnt .left dl dt{
+	height:28px;
+
+}
+#cnt .left dl dd{
+	border-bottom:1px solid #C9CACA;
+		height:35px;
+		padding-left:37px;
+}
+#cnt .left dl .red{
+	color:#B81C22;
+
+
+}
+#cnt .left dl dt a{
+	line-height:37px;
+	padding-left:37px;
+	height:37px;
+	font-size:16px;	
+	color:#bfbfbf;
+	font-weight:bold;
+}
+#cnt .left dl dd a{
+	height:25px;
+	line-height:25px;
+	padding-right:8px;
+	font-size:12px;	
+	color:#898083;
+
+}
+#cnt .left .he{
+	height:47px;
+	line-height:47px;
+}
+/*左边分类结束*/
+
+/*中间轮播图开始*/
+#cnt .center{
+	width:710px;
+	height:475px;
+	float:left;
+	margin:0 8px 0 8px;
+	background:url(../img/lun.jpg) no-repeat;
+}
+
+
+/*中间轮播图结束*/
+
+/*右边推荐*/
+#cnt .right{
+	width:210px;
+	height:475px;
+	border:1px solid #C9CACA;
+	float:right;
+}
+#cnt .right .top{
+	border-bottom:1px solid #C9CACA;
+}
+#cnt .right .bottom{
+
+}
+/*右边推荐结束*/
+/*中间导航与轮播结束*/
+
+
+/*新品上架开始*/
+#new{
+	width:1200px;
+	margin:10px auto 10px auto;
+}
+#new span{
+	display:block;
+	width:1200px;
+	text-indent:25px;
+	color:#595757;
+	font-size:17px;
+	font-weight:bold;
+
+}
+#new a{
+
+}
+#new .c{
+	margin-right:none;
+}
+
+/*新品上架结束*/
+
+/*热销开始*/
+#re{
+	width:1200px;
+	margin:10px auto 10px auto;
+}
+#re span{
+	display:block;
+	width:1200px;
+	text-indent:25px;
+	color:#595757;
+	font-size:17px;
+	font-weight:bold;
+
+}
+#re div{
+	width:1200px;
+}
+
+/*热销商品结束*/
+
+/*/*特价开始*/
+/*#re{
+	width:1200px;
+	margin:10px auto 10px auto;
+}
+#re span{
+	display:block;
+	width:1200px;
+	text-indent:25px;
+	color:#595757;
+	font-size:17px;
+	font-weight:bold;
+
+}
+#re div{
+	width:1200px;
+}*/
+
+/*特价商品结束*/
+
+
+/*网站底部导航*/
+#footer{
+	width:1200px;
+	height:190px;
+	margin:30px auto;
+	border:1px solid #E0E0E1;
+	
+}
+#footer ul li{
+	margin-top:28px;
+	width:198px;
+	height:139px;
+	border-right:1px solid #E0E0E1;
+	float:left;
+	text-align:center;
+}
+#footer ul li h2{
+		margin-bottom:21px;
+}
+
+#footer ul li p{
+	margin-bottom:8px;
+	
+}
+#footer ul li p a{
+	color:black;
+}
+
+#footer ul li p a:hover{
+	color:#A10000;
+}
+#footer ul .qu{
+	border-right:none;
+}
+
+/*============================*/
+
+#wen{
+	width:1200px;
+	height:31px;
+	margin:20px auto;
+/*	border:1px solid black;*/
+}
+#wen .huan{
+
+	display:block;
+	width:300px;
+	height:30px;
+	background:url(../img/vanclsprite2.png) no-repeat 90px -121px;
+	float:left;
+}
+#wen .bao{
+	display:block;
+	width:300px;
+	height:30px;
+	background:orange;
+	float:left;
+	background:url(../img/vanclsprite2.png) no-repeat 90px -161px;
+}
+
+#wen .shi{
+	display:block;
+	width:300px;
+	height:30px;
+	background:yellow;
+	float:left;
+	background:url(../img/vanclsprite2.png) no-repeat 90px -203px;
+}
+
+#wen .kefu{
+	display:block;
+	width:300px;
+	height:30px;
+	background:black;
+	float:left;
+	background:url(../img/vanclsprite2.png) no-repeat 90px -244px;
+}
+
+/*网站底部导航结束*/
+
+/*网站底部版权*/
+#copy{
+	width:1200px;
+	height:33px;
+	line-height:33px;
+	margin:0 auto;
+	text-align:center;
+	color:#3E3A39;
+}
+/*网站底部版权结束*/
+
+
+/*网站底部图片链接*/
+#tu{
+	width:700px;
+	margin:0 auto;
+	
+	height:60px;
+
+}
+#tu li{
+	float:left;
+	margin-right:10px;
+
+}
+#tu li .cheng{
+	width:113px;
+	height:50px;
+	display:inline-block;
+	background:url(../img/spritesbgtop.png) no-repeat 0px -582px ;
+}
+#tu li .zhong{
+	width:157px;
+	height:50px;;
+	display:inline-block;
+	background:url(../img/spritesbgtop.png) no-repeat 0px -629px ;
+}
+#tu li .wang{
+	width:97px;
+	height:43px;
+	display:inline-block;
+	background:url(../img/spritesbgtop.png) no-repeat 0px -675px ;
+}
+#tu li .jing{
+	width:103px;
+	height:43px;
+	display:inline-block;
+	background:url(../img/spritesbgtop.png) no-repeat -97px -675px ;
+}
+#tu li .ri{
+	width:41px;
+	height:43px;
+	display:inline-block;
+	background:url(../img/spritesbgtop.png) no-repeat -203px -675px ;
+}
+#tu li .pin{
+	width:124px;
+	height:43px;
+	display:inline-block;
+
+}
+/*网站底部图片链接*/

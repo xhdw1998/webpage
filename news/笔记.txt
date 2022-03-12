@@ -1,0 +1,22 @@
+文本裁剪
+overflow:hidden;
+text-overflow:ellipsis;
+white-space:nowrap; 强制不换行
+
+letter-spacing
+
+绘制好看的序列号
+li:before{
+	content:counter(listxh);
+	样式
+}
+
+li{
+	counter-increment:listxh
+}
+
+
+nth-child(3n+1){
+}
+
+nth-child(5n+5)

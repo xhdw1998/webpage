@@ -1,0 +1,24 @@
+*{ margin:0; padding:0; font-family:微软雅黑; }
+img{ border:none; }
+
+/*背景样式*/
+#header{ background:url(../images/ddz_01.png) no-repeat center; width:100%; height:272px; }
+#content{ position:relative;  background:url(../images/ddz_02.png) no-repeat center; width:100%; height:208px;}
+#content2{ position:relative; position:relative; background:url(../images/ddz_03.png) no-repeat center; width:100%; height:126px; }
+#content3{ position:relative; background:url(../images/ddz_04.png) no-repeat center; width:100%; height:180px; }
+#content4{ position:relative; background:url(../images/ddz_05.png) no-repeat center; width:100%; height:214px; }
+#content4 ul{   position:absolute; top:40px;right:140px; width:65%; overflow:hidden; height:150px;}
+/*推荐游戏样式*/
+#content4 ul li{ list-style-type:none; width:116px; height:112px; float:left; margin-right:60px; }
+#content4 ul li:last-child{ margin-right:0; }
+#content4 ul li a{ display:block; }
+#content4 ul li p{ text-align:center; color:#F0CBA5; } 
+/*注册页面样式*/
+#register{ width:285px; height:700px;  position:absolute; top:20px; left:5%; }
+#register .top{ margin-top:170px; padding-top:70px; width:306px; height:355px; background:url(../images/register_bg.png) no-repeat;}
+#register .top div{margin-left:15px;  padding-top:3%; height:40px; }
+#register .top div label{ color:#EB9D6A;  }
+#register .top div input{ text-indent:10px; color:white; width:170px; height:25px; background:#671C00; border-radius:10px; border:none; }
+#register .top .zhuce{ display:inline-block;  margin-left:15px; margin-top:32px;  background:url(../images/ljzc.png) no-repeat; height:76px; width:280px; }
+#register .dou_text{  position:absolute; left:0; z-index:5; }
+#register #download{  display:block; width:285px; height:140px; background:url(../images/download.png) no-repeat; }
